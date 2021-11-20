@@ -94,7 +94,7 @@ def vcg_cheapest_path(g, source, target) -> None:
         finally:
             g.add_edge(edge[0], edge[1], weight=edge_weight)
             sum_all_price += price
-    draw_graph(g, source, target, edges_from_path)
+    # draw_graph(g, source, target, edges_from_path)
     print("Total price: ", "{:.1f}".format(sum_all_price))  # doctest:SKIP
 
 
